@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:  800px;
+    height: 1200px;
+    border: 3px inset #c1c1c1;
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+}
+
+.container header{
+    display: flex;
+    display: inline;
+}
+
+header h1{
+    margin-top: 15px;
+    text-align: center;
+    color: red;
+}
+
+.list1 {
+    text-align: start;
+    margin: 70px 0 0 50px;
+    list-style-type: none;
+    line-height: 22px;
+    font-size: large;
+    color: #c1c1c1;
+}
+
+header ul h3{
+    color: red;
+    padding-bottom: 10px;
+}
+
+
+.kapak-foto{
+   width: 450px;
+   height: 300px;
+   display: flex;
+   margin: auto;
+   border: 3px solid black;
+   border-radius: 50px 25px;
+   border-color: red;
+   margin-top: 50px;
+}
+
+.kapak-foto img{
+    width: 100%;
+    border-radius: 50px 25px;
+}
+
+.kapak-yazi p{
+    width: 450px;
+   height: 150px;
+    display:block;
+text-align: center;
+margin: auto;
+color: #c1c1c1;
+font-weight: bold;
+}
+
+.tanitim-video{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 440px;
+    height: 305px;
+    border: 3px solid black;
+    border-radius: 50px 25px;
+    border-color: red;
+}
+.tanitim-video iframe{
+    width: 100%;
+    object-fit: contain; /* görüntünün bulunduğu alana ölçeklenmesini sağlar */
+    border-radius: 50px 25px;
+}
+
+footer{
+    width: 800px;
+    height: 100px;
+    display: inline-block;
+}
+
+.izle-buton button{
+    display: flex;
+    margin: auto;
+   background-color: #c1c1c1;
+   color: red;
+   font-weight: bold;
+   border-radius: 10px;
+   border:3px solid red;
+   cursor: pointer;
+   padding: 10px  20px;
+   margin-top: 40px;
+}
+
